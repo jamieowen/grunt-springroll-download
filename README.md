@@ -1,4 +1,4 @@
-# grunt-springroll-connect
+# grunt-springroll-connect [![Build Status](https://travis-ci.org/SpringRoll/grunt-springroll-connect.svg)](https://travis-ci.org/SpringRoll/grunt-springroll-connect) [![Dependency Status](https://david-dm.org/SpringRoll/grunt-springroll-connect.svg)](https://david-dm.org/SpringRoll/grunt-springroll-connect)
 
 > Download and extract games from SpringRoll Connect.
 
