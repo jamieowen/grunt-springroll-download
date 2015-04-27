@@ -1,4 +1,4 @@
-# grunt-springroll-download [![Build Status](https://travis-ci.org/SpringRoll/grunt-springroll-download.svg)](https://travis-ci.org/SpringRoll/grunt-springroll-download) [![Dependency Status](https://david-dm.org/SpringRoll/grunt-springroll-download.svg)](https://david-dm.org/SpringRoll/grunt-springroll-download)
+# grunt-springroll-download [![Build Status](https://travis-ci.org/SpringRoll/grunt-springroll-download.svg)](https://travis-ci.org/SpringRoll/grunt-springroll-download) [![Dependency Status](https://david-dm.org/SpringRoll/grunt-springroll-download.svg)](https://david-dm.org/SpringRoll/grunt-springroll-download) [![npm version](https://badge.fury.io/js/grunt-springroll-download.svg)](http://badge.fury.io/js/grunt-springroll-download)
 
 > Download and extract games from SpringRoll Connect.
 
