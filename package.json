@@ -1,0 +1,38 @@
+{
+  "name": "grunt-springroll-connect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpringRoll/grunt-springroll-connect"
+  },
+  "version": "0.0.1",
+  "main": "./tasks/springroll.js",
+  "author": {
+    "name": "Matt Karl",
+    "email": "matt@cloudkid.com"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.11.2"
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "request",
+    "springroll",
+    "games"
+  ],
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/SpringRoll/grunt-springroll-connect/issues"
+  },
+  "homepage": "https://github.com/SpringRoll/grunt-springroll-connect",
+  "dependencies": {
+    "async": "^0.9.0",
+    "download": "^4.1.2",
+    "request": "^2.55.0"
+  }
+}
