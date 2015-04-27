@@ -1,4 +1,4 @@
-# grunt-springroll-connect [![Build Status](https://travis-ci.org/SpringRoll/grunt-springroll-connect.svg)](https://travis-ci.org/SpringRoll/grunt-springroll-connect) [![Dependency Status](https://david-dm.org/SpringRoll/grunt-springroll-connect.svg)](https://david-dm.org/SpringRoll/grunt-springroll-connect)
+# grunt-springroll-download [![Build Status](https://travis-ci.org/SpringRoll/grunt-springroll-download.svg)](https://travis-ci.org/SpringRoll/grunt-springroll-download) [![Dependency Status](https://david-dm.org/SpringRoll/grunt-springroll-download.svg)](https://david-dm.org/SpringRoll/grunt-springroll-download)
 
 > Download and extract games from SpringRoll Connect.
 
@@ -9,13 +9,13 @@ This plugin requires Grunt ~0.4.0
 If you haven't used Grunt before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```bash
-npm install --save grunt-springroll-connect
+npm install --save grunt-springroll-download
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-springroll-connect');
+grunt.loadNpmTasks('grunt-springroll-download');
 ```
 ## SpringRoll task
 

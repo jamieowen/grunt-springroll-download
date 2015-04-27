@@ -1,5 +1,5 @@
 /*
- * grunt-springroll-connect
+ * grunt-springroll-download
  *
  * Copyright (c) 2015 CloudKid, LLC
  * Licensed under the MIT license.

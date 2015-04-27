@@ -1,8 +1,8 @@
 {
-  "name": "grunt-springroll-connect",
+  "name": "grunt-springroll-download",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SpringRoll/grunt-springroll-connect"
+    "url": "https://github.com/SpringRoll/grunt-springroll-download"
   },
   "version": "0.0.1",
   "main": "./tasks/springroll.js",
@@ -27,9 +27,9 @@
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/SpringRoll/grunt-springroll-connect/issues"
+    "url": "https://github.com/SpringRoll/grunt-springroll-download/issues"
   },
-  "homepage": "https://github.com/SpringRoll/grunt-springroll-connect",
+  "homepage": "https://github.com/SpringRoll/grunt-springroll-download",
   "dependencies": {
     "async": "^0.9.0",
     "download": "^4.1.2",
