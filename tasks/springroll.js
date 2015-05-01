@@ -131,6 +131,7 @@ module.exports = function(grunt)
 	// Handle the request
 	function downloadArchive(slug, call, done)
 	{
+		grunt.log.write('Downloading "' + slug + '" ... ');
 		request(call, function(err, response, body)
 		{
 			if (err) return done(err);
@@ -141,13 +142,14 @@ module.exports = function(grunt)
 			{
 				return done(result.error + ' with game "' + slug + '"');
 			}
-
+			grunt.log.write('Installing ... ');
 			this.get(result.data.url).run(function(err, files)
 			{
 				if (err) 
 				{
 					return done('Unable to download archive for game "' + slug + '"');
 				}
+				grunt.log.writeln('Done.');
 				done(null, files);
 			});
 		}
