@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/SpringRoll/grunt-springroll-download"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./tasks/springroll.js",
   "author": {
     "name": "Matt Karl",

@@ -44,7 +44,7 @@ The global status to use for pulling games. This can either be `prod`, `dev`, `s
 
 Type: `String`
 
-A unique access token used for SpringRoll Connect to download non-public releases.
+A unique access token used for SpringRoll Connect to download non-public releases. It's recommended that you set your access token through an environmental variable. See section below `SPRINGROLL_TOKEN`.
 
 #### options.debug
 
@@ -85,6 +85,28 @@ Default: `undefined`
 
 The specific Git commit hash of a game to download. A `token` option is required to download a specific commit.
 
+### Environment Variables
+
+It's recommended to use environment variables to ignore sensitive information from your project's version control. To setup this for OS X:
+
+1. Open up your bash profile `vi ~/.bash_profile`
+2. Add the environment variable to the file `export SPRINGROLL_TOKEN=blahblahblah` (where "blahblahblah" is your token)
+3. Save and then import the profile `. ~/.bash_profile`
+
+#### SPRINGROLL_TOKEN
+
+Type: `String`
+Default: `undefined`
+
+Instead of settings `options.token`, you can define your personal access token through an environmental variable.  _This is recommended._
+
+#### SPRINGROLL_SERVER
+
+Type: `String`
+Default: `undefined`
+
+Instead of settings `options.server`, you can define the path to SpringRoll Connect through an environmental variable. 
+
 ## Usage
 
 ### Basic Usage
@@ -116,7 +138,6 @@ grunt.initConfig({
 	springroll: {
 		options: {
 			server: 'http://springroll-connect.example.com',
-			token: 'asdfasdfasdfasdfasdfadsfasdfasdf',
 			dest: 'deploy/games'
 		},
 		all: [
@@ -142,7 +163,6 @@ grunt.initConfig({
 	springroll: {
 		options: {
 			server: 'http://springroll-connect.example.com',
-			token: 'asdfasdfasdfasdfasdfadsfasdfasdf',
 			dest: 'deploy/games'
 		},
 		debug: {

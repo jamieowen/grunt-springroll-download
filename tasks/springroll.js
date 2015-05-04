@@ -16,8 +16,8 @@ module.exports = function(grunt)
 		var completed = this.async();
 
 		var options = this.options({
-			server: '',
-			token: '',
+			server: process.env.SPRINGROLL_SERVER || '',
+			token: process.env.SPRINGROLL_TOKEN || '',
 			dest: '',
 			status: 'prod',
 			debug: false
