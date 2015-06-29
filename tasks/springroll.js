@@ -10,6 +10,7 @@ module.exports = function(grunt)
 	var async = require('async');
 	var request = require('request');
 	var Download = require('download');
+    var mkdirp = require( 'mkdirp' );
 
 	var fs = require( 'fs' );
 	var path = require( 'path' );
@@ -151,7 +152,7 @@ module.exports = function(grunt)
 			if( options.json )
 			{
 				grunt.log.write('Writing json ... ');
-
+                mkdirp.sync( options.dest );
 				var writeStream = fs.createWriteStream( path.join( options.dest, slug + '.json' ) );
 				writeStream.write( JSON.stringify(result.data) );
 				writeStream.end();
